@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sipeting</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="nav">
+        <header>
+          <h1>SIPETING</h1>
+          <!-- tagline hanya untuk desktop -->
+          <p class="tagline">
+            Sistem Informasi Penyebaran Stunting Desa Sukaresmi
+          </p>
+        </header>
+        <nav>
+          <!-- menu untuk desktop -->
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">DASHBOARD</a></li>
+              <li><a href="#">PETA STUNTING</a></li>
+              <li><a href="#">DATA STUNTING</a></li>
+            </ul>
+          </div>
+
+          <!-- toggle hamburger untuk mobile -->
+          <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <!-- aside menu untuk mobile ketika toggle di klik -->
+          <div class="menu-mobile">
+            <ul>
+              <li><a href="#">DASHBOARD</a></li>
+              <li><a href="#">PETA STUNTING</a></li>
+              <li><a href="#">DATA STUNTING</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main>
+      <section id="banner">
+        <div class="hero-content">
+          <div class="deskripsi">
+            <h2>Selamat datang di Sipeting</h2>
+            <p>
+              Stunting adalah kondisi ketika anak mengalami kekurangan gizi yang
+              berakibat pada pertumbuhan dan perkembangan yang cepat. Stunting
+              dapat menyebabkan anak menjadi dekat dengan kematian bayi.
+            </p>
+          </div>
+          <div class="thumbnail">
+            <img src="img/ex-thumbnail.svg" alt="Logo Sipeting" />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-content">
+          <div class="thumbnail">
+            <img src="img/ex-thumbnail.svg" alt="Logo Sipeting" />
+          </div>
+          <div class="deskripsi-about">
+            <h2>Tentang Sipeting</h2>
+            <p>
+              SIPETING Desa Sukaresmi adalah sistem informasi yang digunakan
+              untuk mengelola data penyebaran stunting di desa Sukaresmi. Sistem
+              ini membantu masyarakat untuk mengakses informasi tentang
+              penyebaran stunting secara cepat dan akurat.
+            </p>
+            <button>Lihat Selengkapnya</button>
+          </div>
+        </div>
+      </section>
+      <section id="peta">
+        <div class="peta-content">
+          <div class="deskripsi">
+            <h2>Peta Stunting</h2>
+            <p>
+              Peta Stunting adalah peta yang menampilkan lokasi dan data
+              penyebaran stunting di desa Sukaresmi. Peta ini membantu
+              masyarakat untuk mengakses informasi tentang penyebaran stunting
+              secara cepat dan akurat.
+            </p>
+            <button
+              onclick="window.location.href = 'page/map.html'; return false;"
+            >
+              Lihat Peta <img src="img/arrow-right.svg" />
+            </button>
+          </div>
+          <div class="thumbnail">
+            <img src="img/ex-thumbnail.svg" alt="Logo Sipeting" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Sipeting. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

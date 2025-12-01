@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  },
+  "name": "sistem-stunting-sukaresmi",
+  "version": "1.0.0",
+  "description": "Sistem Informasi Penyebaran Stunting Desa Sukaresmi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizki462/sistem-stunting-sukaresmi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rizki462/sistem-stunting-sukaresmi/issues"
+  },
+  "homepage": "https://github.com/rizki462/sistem-stunting-sukaresmi#readme"
+}
